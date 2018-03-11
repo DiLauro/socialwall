@@ -1,5 +1,5 @@
 
-var accessToken = '198905827.8b282c8.a011bc770e3d4db4831ae4a88c25e42a';
+var accessToken = '';
 var InstagramAPI = require('instagram-api');
 var instagramAPI = new InstagramAPI(accessToken);
 
@@ -15,7 +15,7 @@ var ig = require('instagram-node').instagram();
  
 // Every call to `ig.use()` overrides the `client_id/client_secret` 
 // or `access_token` previously entered if they exist. 
-ig.use({ access_token: '198905827.8b282c8.a011bc770e3d4db4831ae4a88c25e42a' });
+ig.use({ access_token: '' });
 
 /*
 ig.use({ client_id: '8b282c88ddc04418ae9d37d545944634',
